@@ -1,0 +1,19 @@
+version: '2'
+services:
+  application:
+    image: "vixtera/unity-app"
+    ports:
+     - "8080:8080"
+    depends_on:
+     - database
+     - nexus
+    environment:
+     - DB_URL="database:3306/unity"
+  database:
+    image: "vixtera/unity-db"
+    ports:
+     - "3306:3306"
+  nexus:
+    image: "vixtera/unity-nexus"
+    ports:
+     - "8081:8081"
