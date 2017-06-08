@@ -40,3 +40,11 @@ Launch the containers using:
 $ curl -LO https://raw.githubusercontent.com/vixtera/unity-community-edition/master/docker-compose.yml
 $ docker-compose up -d
 ```
+
+## Unity CLI
+
+Command line interface to interact with Unity server. Launch the CLI container using:
+
+```bash
+$ docker run -it vixtera/docker-cli
+```
