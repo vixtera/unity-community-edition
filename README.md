@@ -50,7 +50,8 @@ Default administrator credentials:
 Command line interface to interact with Unity server. Launch the CLI container using:
 
 ```bash
-$ docker run -it vixtera/unity-cli
+$ docker run -it vixtera/unity-cli   # starts container with Unity CLI
+[root@7686ff0b37ac /]$ unity         # starts Unity CLI in container
 ```
 
 ## Unity Documentation
