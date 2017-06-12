@@ -48,3 +48,9 @@ Command line interface to interact with Unity server. Launch the CLI container u
 ```bash
 $ docker run -it vixtera/docker-cli
 ```
+
+## Unity Documentation
+
+Installation and user guides for Unity Platform:
+
+http://doc.vixtera.com/
