@@ -41,6 +41,10 @@ $ curl -LO https://raw.githubusercontent.com/vixtera/unity-community-edition/mas
 $ docker-compose up -d
 ```
 
+Default administrator credentials: 
+ * username: **admin**
+ * password: **admin**
+
 ## Unity CLI
 
 Command line interface to interact with Unity server. Launch the CLI container using:
