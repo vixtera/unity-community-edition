@@ -46,7 +46,7 @@ $ docker-compose up -d
 Command line interface to interact with Unity server. Launch the CLI container using:
 
 ```bash
-$ docker run -it vixtera/docker-cli
+$ docker run -it vixtera/unity-cli
 ```
 
 ## Unity Documentation
