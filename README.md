@@ -24,14 +24,20 @@ services:
      - nexus
     environment:
      - DB_URL="database:3306/unity"
+    volumes:
+     - ./application:/opt/unity/tomcat/conf
   database:
     image: "vixtera/unity-db"
     ports:
      - "3306:3306"
+    volumes:
+     - ./database:/var/lib/mysql
   nexus:
     image: "vixtera/unity-nexus"
     ports:
      - "8081:8081"     
+    volumes:
+     - ./sonatype-work:/opt/sonatype-work
 ```
 
 Launch the containers using:
