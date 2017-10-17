@@ -51,6 +51,16 @@ Default administrator credentials:
  * username: **admin**
  * password: **admin**
 
+
+Upgrade the containers using (Since ver 2.10 all the neccessary configs database and nexus content is persistent ):
+
+```bash
+$ docker-compose stop
+$ docker-compose rm
+$ docker-compose up -d
+```
+
+
 ## Unity CLI
 
 Command line interface to interact with Unity server. 
